@@ -45,16 +45,16 @@ function game() {
         }
     }
 
-    console.log("Final Score!")
-    console.log("Player: " + playerScore);
-    console.log("Computer: " + computerScore);
+    alert("Final Score!")
+    alert("Player: " + playerScore);
+    alert("Computer: " + computerScore);
 
     if (playerScore > computerScore) {
-        console.log("Congratulations! You win! ");
+        alert("Congratulations! You win! ");
     } else if (playerScore < computerScore) {
-        console.log("Sorry, you lose. :( ");
+        alert("Sorry, you lose. :( ");
     } else {
-        console.log("It's a draw! Play again! ")
+        alert("It's a draw! Play again! ")
     }
 }
 
